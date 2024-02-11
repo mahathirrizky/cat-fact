@@ -16,5 +16,5 @@ func GetCatFact(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, response)
+	c.JSON(http.StatusOK, response.Fact)
 }
